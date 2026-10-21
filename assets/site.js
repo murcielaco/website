@@ -8,7 +8,7 @@
 /* mobile drawer */
 (function(){
   var btn=document.querySelector('.menu-btn'),dr=document.getElementById('drawer');if(!btn||!dr)return;
-  function open(){dr.hidden=false;document.body.style.overflow='hidden';btn.setAttribute('aria-expanded','true');dr.querySelector('a').focus();}
+  function open(){var r=btn.getBoundingClientRect(),c=dr.querySelector('.close');c.style.top=r.top+'px';c.style.left=r.left+'px';c.style.right='auto';c.style.width=r.width+'px';c.style.height=r.height+'px';dr.hidden=false;document.body.style.overflow='hidden';btn.setAttribute('aria-expanded','true');dr.querySelector('a').focus();}
   function close(){dr.hidden=true;document.body.style.overflow='';btn.setAttribute('aria-expanded','false');}
   btn.addEventListener('click',open);
   dr.querySelector('.close').addEventListener('click',close);
