@@ -45,7 +45,7 @@ section.block{padding-block:clamp(72px,10vw,140px)}
 .nav ul a{letter-spacing:.32em;text-transform:uppercase;text-decoration:none;color:var(--mist);transition:color .2s}
 .nav ul a:hover,.nav ul a[aria-current]{color:var(--bone)}
 .nav ul a sup{font-size:8px;margin-left:2px}
-.menu-btn{display:none;margin-left:auto;width:44px;height:44px;border:0;background:none;padding:0;cursor:pointer;place-items:center}
+.menu-btn{display:none;margin-left:auto;width:44px;height:44px;margin-right:-14px;border:0;background:none;padding:0;cursor:pointer;place-items:center}
 .menu-btn i{display:block;width:16px;height:1px;background:var(--bone);box-shadow:0 5px 0 var(--bone),0 -5px 0 var(--bone)}
 .drawer{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.96);backdrop-filter:blur(10px);display:grid;align-content:center;padding:32px}
 .drawer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
