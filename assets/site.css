@@ -28,6 +28,7 @@ h2{font-size:clamp(30px,4.4vw,56px);line-height:1.06}
 p{margin:0}
 .lede{color:var(--mist);max-width:60ch}
 .metal{background:var(--chrome);background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;animation:flow 7s linear infinite}
+.metal{padding-right:.14em;margin-right:-.14em}
 @keyframes flow{to{background-position:-300% 0}}
 section.block{padding-block:clamp(72px,10vw,140px)}
 .rule{border-top:1px solid var(--line)}
@@ -221,6 +222,7 @@ footer ul a:hover{color:var(--bone)}
   .work-btn{justify-self:start}
   .band::after{background:linear-gradient(180deg,rgba(0,0,0,.2),rgba(0,0,0,.8))}
   .band{align-items:end}
+  .band video{top:12.5%;height:75%}
   .band .wrap{padding-block:48px}
 }
 @media (max-width:560px){
