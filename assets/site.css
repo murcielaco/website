@@ -276,3 +276,16 @@ footer ul a:hover{color:var(--bone)}
   .specs{grid-template-columns:minmax(0,1fr)}
 }
 @media (max-width:980px){.division.studios > img{padding:6% 12% 46%}}
+
+/* light section (LAB-01) */
+.light{background:#fff;color:#0b0b0b;--chrome:linear-gradient(100deg,#2a2d31 0%,#7a7f86 14%,#1c1e21 28%,#9aa0a7 42%,#2f3237 56%,#6d727a 70%,#1d1f22 84%,#2a2d31 100%)}
+.light .eyebrow,.light .lede,.light .split .text p,.light .prose .muted{color:#6b6b6b}
+.light .prose{color:#2a2a2a}
+.light .media{background:#fff}
+.light .media figcaption{color:#6b6b6b;text-shadow:none}
+.light .specs{border-color:#e3e3e3}
+.light .specs div{border-color:#e3e3e3}
+.light .specs dt{color:#7a7a7a}
+.light .docs a{border-color:#e3e3e3}
+.light .docs a:hover{border-color:#0b0b0b}
+.light + .rule{border-top-color:transparent}
